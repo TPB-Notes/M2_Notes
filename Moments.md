@@ -35,11 +35,13 @@ There are three possible situations when forces act along parallel lines
 3. The sum of the forces is zero but the total moment of the forces is non-zero. This can happen when there are two equal forces in parallel which are acting in opposite directions. This is a couple
 
 
-
-
-
 ## Equilibrium of non parallel forces
 
+A system of non parallel forces has a single resultant force to give a translational effect.
+To be in equilibrium, both the translational and rotational effects must be zero.
+This means that
+* The resultant force in each of two non parallel directions is zero
+* The total moment about any chosen point is zero
 
 
 ## Hinges and joints
