@@ -28,5 +28,25 @@ For the &lt;b&gt;i&lt;/b&gt; direction, the unit vector is $$\begin{pmatrix} 1 \
 
 $$\textbf{r} = x\textbf{i} + y\textbf{j} + z\textbf{k} = \begin{pmatrix} x \\ y \\ z \end{pmatrix}$$
 
+The magnitude of the vector can then be found using Pythagoras' theorem
+
+$$|\textbf{r}| = \sqrt{x^2 + y^2 + z^2}$$
+
+For each component in multidimensional motion, the same techniques used in single dimensional motion are applied.
+
+Thus
+
+$$\textbf{v} = \frac{dx}{dt}\textbf{i} + \frac{dx}{dt}\textbf{j} + \frac{dx}{dt}\textbf{j}$$
+
+and 
+
+$$\textbf{a} = \frac{d^2 x}{dt^2}\textbf{i} + \frac{d^2 x}{dt^2}\textbf{j} + \frac{d^2 x}{dt^2}\textbf{j}$$
+
+When the components are written as functions of time, this is expressed as
+
+$$\textbf{r} = f(t)\textbf{i} + g(t)\textbf{j} + h(t)\textbf{k} \\ 
+\textbf{v} = f'(t)\textbf{i} + g'(t)\textbf{j} + h'\textbf{k} \\
+\textbf{a} = f''(t)\textbf{i} + g''(t)\textbf{j} + h''\textbf{k}$$
+
 
 
