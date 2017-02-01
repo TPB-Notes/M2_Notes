@@ -79,9 +79,14 @@ The reaction force in a hinge or joint is usually found by resolving the horizon
 
 ## Three forces in equilibrium
 
+Given three forces in equilibrium.
+If the lines of action of two of the forces meet at point A, the resultant of those two forces is a force R passing through A. 
+For equilibrium, the third force in the system must be -R, and its line of action must also pass through A. 
+If the third force did not pass through A, the system would generate a turning effect and so would not be in equilibrium.
+The three forces therefore act through the same point.
 
-
-
+It can therefore be stated that
+When a system of three forces is in equilibrium, the lines of action of the forces must all pass through a single point.
 
 
 
