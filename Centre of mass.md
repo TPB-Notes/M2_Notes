@@ -33,7 +33,7 @@ $$\overline{X} = \frac{\sum_{i=1}^n m_i x_i}{\sum _{i=1} ^n m_i}$$
 
 Resolving in each direction, and extending to three dimensions
 
-$$\begin{pmatrix} \overline{X} \ \overline{Y} \ \overline{Z} \end{pmatrix} =   
+$$\begin{pmatrix} \overline{X} \ \overline{Y} \ \overline{Z} \end{pmatrix} =  
     \frac{\sum_{i=1}^n \begin{pmatrix} x\_i \ y\_i \ z\_i \end{pmatrix}}{\sum_{i=1}{n} m\_i}
 
 $$
