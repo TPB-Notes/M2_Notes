@@ -43,10 +43,41 @@ This means that
 * The resultant force in each of two non parallel directions is zero
 * The total moment about any chosen point is zero
 
+Three independent equations can be found equating the total components in two directions and the total moment around a point to zero.
+The same result can be achieved in two other ways
+* Take moments about two points and resolve in one direction
+* Take moments about three points
+
 
 ## Hinges and joints
 
+The reaction force in a hinge or joint is usually found by resolving the horizontal and vertical components of the reaction force
 
+> A uniform rod AB of length $$a$$ and weight $$W$$ is hinged to a vertical wall at A and is held at an angle of 30° above the horizontal by a light string BC, also of length $$a$$, which is fixed to the wall at C, a distance of $$a$$ vertically above A.
+>  
+> Find the reaction in the hinge at A
+> 
+> Suppose that the reaction has horizontal and vertical components $$X$$ and $$Y$$
+> Resolving vertically
+> [1] $$Y + T\cos(30^{\circ}) = W$$ where $$T$$ is the tension in the string
+> Resolving horizontally
+> [2] $$X = T\cos(30^{\circ})$$
+> Taking moments about A  
+> [3] $$aTsin(60^{\circ}) - \frac{a}{2}Wsin(60^{\circ}) = 0$$
+> 
+> From [3] $$T = \frac{1}{2}W$$
+> From [2] $$X = \frac{\sqrt{3}}{2}T = \frac{\sqrt{3}}{4}W$$
+> From [1] $$Y = W - \frac{1}{2} \times \frac{1}{2}W = \frac{3}{4}W$$
+> 
+> $$X$$ and $$Y$$ can be combined to find the magnitude of the reaction $$R$$
+> $$R = \sqrt{X^2 + Y^2} = \frac{1}{2}W\sqrt{3}$$
+> 
+> The reaction makes an angle $$\theta$$ to the horizontal, where
+> $$tan(\theta) = \frac{Y}{X} = \sqrt{3}$$
+> Hence $$\theta = 60^{\circ}$$
+
+
+## Three forces in equilibrium
 
 
 
