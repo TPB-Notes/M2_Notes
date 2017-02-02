@@ -29,13 +29,13 @@ $$\overline{X} = \frac{m_1x_1 + m_2x_2 + ... + m_nx_n}{m_1 + m_2 + ... + m_n}$$
 
 This can be expressed more cleanly with sigma notation
 
-$$\overline{X} = \frac{\sum_{i=1}^n m_i x_i}{\sum _{i=1} ^n m_i}$$
+$$\overline{X} = \frac{\sum\limits_{i=1}^n m_i x_i}{\sum\limits _{i=1}^n m_i}$$
 
 Resolving in each direction, and extending to three dimensions
 
 $$
 \begin{pmatrix} \overline{X} \\ \overline{Y} \\ \overline{Z} \end{pmatrix} =
-    \frac{\sum_{i=1}^n \begin{pmatrix} x_i \\ y_i \\ z_i \end{pmatrix}}{\sum_{i=1}^{n} m_i}
+    \frac{\sum\limits_{i=1}^n \begin{pmatrix} x_i \\ y_i \\ z_i \end{pmatrix}}{\sum\limits_{i=1}^{n} m_i}
 $$
 
 ## Centre of mass of simple shapes
