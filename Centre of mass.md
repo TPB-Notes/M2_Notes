@@ -71,5 +71,6 @@ The centre of mass of the shape can be found by taking moments around a point an
 
 ## Suspended shapes
 
-
+When a lamina is suspended, the vertical from the point at which the lamina is suspended passes through the centre of mass of the the lamina.
+This can be used to find the angle between a part of the shape and the vertical.
 
