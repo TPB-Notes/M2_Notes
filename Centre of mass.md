@@ -33,16 +33,41 @@ $$\overline{X} = \frac{\sum_{i=1}^n m_i x_i}{\sum _{i=1} ^n m_i}$$
 
 Resolving in each direction, and extending to three dimensions
 
-$$\begin{pmatrix} \overline{X} \ \overline{Y} \ \overline{Z} \end{pmatrix} =  
-    \frac{\sum_{i=1}^n \begin{pmatrix} x\_i \ y\_i \ z\_i \end{pmatrix}}{\sum_{i=1}{n} m\_i}
-
+$$
+\begin{pmatrix} \overline{X} \\ \overline{Y} \\ \overline{Z} \end{pmatrix} =
+    \frac{\sum_{i=1}^n \begin{pmatrix} x_i \\ y_i \\ z_i \end{pmatrix}}{\sum_{i=1}^{n} m_i}
 $$
 
 ## Centre of mass of simple shapes
 
-## Centre of mass of conjoined shapes
+### Line
+
+A line of uniform density has a centre of mass situated at the mid point of the line
+
+### Rectangle
+
+For a uniform rectangular lamina , the centre of mass is at the intersection of its diagonals.
+
+### Circle
+The centre of mass of a uniform circular lamina is at the centre of the circle
+
+### Triangle
+The centre of mass of a uniform triangular lamina is the point at which the medians of the triangle. The point divides each median in the ratio 2:1.
+
+### Semicircle
+The centre of mass of a uniform circular lamina of radius $$r$$ lies on the line of symmetry at a distance $$h$$ from the diameter.
+
+$$h = \frac{4r}{3\pi}$$
+
+## Centre of mass of composite shapes
+Each of the components of a composite shape can be regarded as a point mass located at the centre of mass of the respective component,
+The centre of mass of the overall shape can then be found from this system of point masses.
 
 ## Centres of mass of non uniform shapes
+
+Shapes may be given with other shapes cut out of them.
+
+The centre of mass of the shape can be found by taking moments around a point and equating the moment of the entire shape (Without the cutout) to the sum of the moments of the shape and the cutout around the same point.
 
 ## Suspended shapes
 
